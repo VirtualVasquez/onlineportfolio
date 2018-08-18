@@ -1,0 +1,15 @@
+button {
+	display: inline-block;
+	width: 100%;
+	margin: 2%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	align-content: right;
+}
+
+.jumbotron {
+	background-color: yellow;
+	margin-top: 25%;
+	height: 50%;
+
+}
