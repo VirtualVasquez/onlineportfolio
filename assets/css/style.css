@@ -1,3 +1,6 @@
+body {
+	
+}
 button {
 	display: inline-block;
 	width: 100%;
@@ -14,7 +17,7 @@ button {
 
 .jumbotron {
 	background-color: yellow;
-	margin-top: 20%;
+	margin-top: 5%;
 	height: 100%;
 	vertical-align: middle;
 	position: sticky;
