@@ -12,6 +12,10 @@ var repository = {
 		{
 			"name": "vibez",
 			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+		},
+		{
+			"name": "testing",
+			"url": "https://virtualvasquez.github.io/Hangman-Game/"
 		}
 	]
 }
@@ -19,6 +23,6 @@ var repository = {
 $(document).ready(function(){
 	var projectTemplate = $("#project-template").html();
 	var compiledProjectTemplate = Handlebars.compile(projectTemplate);
-	$(".content-container").html(compiledProjectTemplate(repository.projects[0]));
+	$("#content-container").append(compiledProjectTemplate(repository));
 
 });
