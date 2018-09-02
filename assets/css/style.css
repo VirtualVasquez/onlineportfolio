@@ -1,8 +1,6 @@
-#contentSpace{
-	height: 500px;
+.container {
 	width: 100%;
 }
-
 .jumbotron {
 	background-color: yellow;
 	margin-top: 5%;
@@ -17,7 +15,7 @@
 	margin-right: 5%;
 }
 
-#rightButtons button{
+#right-buttons button{
 /*	display: inline-block;
 */	width: 100%;
 	height: 100%;
