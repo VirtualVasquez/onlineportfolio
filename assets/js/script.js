@@ -23,6 +23,6 @@ var repository = {
 $(document).ready(function(){
 	var projectTemplate = $("#project-template").html();
 	var compiledProjectTemplate = Handlebars.compile(projectTemplate);
-	$("#content-container").append(compiledProjectTemplate(repository));
+	$("#NOTHING").append(compiledProjectTemplate(repository));
 
 });

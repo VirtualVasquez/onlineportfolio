@@ -1,33 +1,52 @@
-h2 {
-	width: 24%;
-	display: inline-block;
-	align-content: center;
-}
-header{
-	text-align: center;
-}
-
-#contentHolder{
-	float: left;
-	width: 75%;
+main {
+	background-color: blue;
+	overflow: auto;
+	display: block;
+	float: right;
+	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
 
-#psuedoC {
-	background-color: blue;
-	overflow: auto;
+
+#picBio{
+	display: flex;
+	height: 30%;
 }
 
-nav {
-	left: 50%;
-}
-
-button {
-	width:2%;
+#headshot{
 	display: inline-block;
+	float: left;
+	margin-right: 2.5%;
+	width: 20%;
+	min-width: 250px; 
+	max-width: 250px;
+	min-height: 250px;
+	max-height: 250px;
 }
+
+#eSkills, #picBio, #experience, header{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#bioBox{
+	display: inline-block;
+	float: right;
+	width: 100%;
+}
+
+#bioContent, #eSkillsContent{
+	margin: 2.5%;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+
+
 
 
 

@@ -1,0 +1,21 @@
+#brand{
+	margin-left: 10%;
+	display: inline-block;
+}
+
+h4 {
+	width: 7.5%;
+	background-color: red;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	display: inline-block;
+	align-content: center;
+	float: right;
+}
+
+nav {
+	display: block;
+	margin-right: 5%;
+	margin-left: 5%;
+}

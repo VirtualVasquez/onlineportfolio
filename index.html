@@ -3,7 +3,9 @@
 <head>
 	<title>Online-Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
   <link rel="stylesheet" type="text/css" href="assets/css/square.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/rectangle.css">
 
 </head>
 
@@ -11,30 +13,52 @@
 <body>
 
 <nav>
-  <h2>About Me</h2>
-  <h2>Portfolio</h2>
-  <h2>Contact</h2>
-  <h2>Connect</h2>
+  <h1 id="brand">Melvin Vasquez</h1>
+  <h4>About Me</h4>
+  <h4>Portfolio</h4>
+  <h4>Contact</h4>
+  <h4>Connect</h4>
 </nav>
 
-<div id="psuedoC">
-<header>
-  <h1>Rotating Title Placeholder</h1>
-</header>
+<main>
 
-<section id="contentHolder">
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <header class="yellow">
+    <h1 class="title">Rotating Title Placeholder</h1>
+  </header>
 
-</section>
+  <section id="picBio">
+    <img id="headshot" src="assets/images/Headshot.png">
+    <section class="yellow" id="bioBox">
+      <article id="bioContent">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </article>
+    </section>
+  </section>
 
-<!-- <aside id="right-buttons">
-  <button><span><h2>About Me</h2></span></button>
-  <button><span><h2>Portfolio</h2></span></button>
-  <button><span><h2>Contact</h2></span></button>
-  <button><span><h2>Connect</h2></span></button>
-</aside> -->
+  <section id="eSkills" class="yellow">
+    <div id="eSkillsContent">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>  
+  </section>
 
-</div>
+  <section id="experience" class="yellow">
+    <div id="experienceContent">
+      
+      <div class="rectangle">
+        <img class="thumbnail" src="assets/images/thd.jpg">
+        <div class="job">
+          <header class="jobHeader">
+          <h3>Bilingual Flooring Retail Associate</h3> <span><h5>From: {{Month Year}} To: {{Month Year}}</h5></span> 
+          </header>
+          <p> Sample description of what I used to do at the Home Depot </p>
+        </div>    
+      </div>
+        
+    </div>
+  </section>  
+</main>
+
+
 
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
@@ -46,6 +70,13 @@
             </div>
           </div>
         </div>
+      </div>
+    {{/each}}
+  </script>
+
+  <script id="job-template" type="text/x-handlebars-template">
+    {{#each job}}
+      <div>
       </div>
     {{/each}}
   </script>

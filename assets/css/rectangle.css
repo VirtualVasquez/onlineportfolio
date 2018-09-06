@@ -1,0 +1,30 @@
+#experienceContent{
+	display: flex;
+}
+.rectangle{
+	display: flex;
+	background-color: green;
+	width: 90%;
+
+}
+
+.jobContent{
+	position: relative;
+	display: inline-block;
+}
+
+.thumbnail{
+	float:left;
+	display: inline-block;
+	max-height: 150px;
+	max-width: 150px;
+}
+
+.jobHeader{
+	width: 100%;
+}
+
+.jobHeader h3, .jobHeader h5{
+	display: inline-block;
+	background-color: pink;
+}
