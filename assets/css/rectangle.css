@@ -1,17 +1,14 @@
 .expRec{
 	display: block;
 	margin-bottom: 2%;
-}
-
-.innerExpRec{
-	display: flex;
-	background-color: green;
 	width: 90%;
 	margin-left: 5%;
 }
 
 .jobDetails{
-	margin: 0.75%;
+	display: inline-block;
+	background-color: green;
+	padding:0.5%;
 }
 
 .jobDetails aside{
@@ -19,6 +16,7 @@
 	float:left;
 	display: inline-block;
 }
+
 
 .thumbnail{
 	max-height: 150px;
