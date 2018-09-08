@@ -8,7 +8,9 @@ main {
 	margin-right: 5%;
 }
 
-
+#tChange{
+	text-align: right;
+}
 
 #picBio{
 	display: flex;
@@ -27,7 +29,7 @@ main {
 	max-height: 250px;
 }
 
-#eSkills, #picBio, #experience, header{
+#eSkills, #picBio, #experience, #tChange{
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
@@ -35,6 +37,7 @@ main {
 #experience{
 	padding-top: 1%;
 	padding-bottom: 1%;
+
 }
 
 #bioBox{
@@ -46,16 +49,15 @@ main {
 
 #eSkills {
 	padding: 2%;
-	margin-top: 10%;
-	margin-bottom: 10%;
-}
+/*	margin-top: 5%;
+	margin-bottom:5%;*/
 
-#bioContent, #eSkillsContent{
-	margin: 2.5%;
 }
 
 .yellow {
 	background-color: yellow;
+		border-color: red;
+	border-style: solid;
 }
 
 #experience header{
