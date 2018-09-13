@@ -22,7 +22,8 @@
 }
 .table-cell{
     display:table-cell;
-    vertical-align:middle;
+    vertical-align:bottom;
+    text-align: center;
     margin: auto 0;
 }
 
@@ -34,9 +35,3 @@
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
     color:#fff;
 }
-
-/*.img1{
-    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
-}
-*/
-
