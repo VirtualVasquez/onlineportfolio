@@ -4,7 +4,6 @@
 }
 
 h4 {
-	width: 7.5%;
 	background-color: red;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -16,10 +15,11 @@ h4 {
 
 #test{
 	margin-right:5%;
+	display: inline-block;
+	float: right;
 }
 
 nav {
 	display: block;
-	margin-right: 5%;
-	margin-left: 5%;
+
 }
