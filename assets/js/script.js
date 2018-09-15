@@ -5,37 +5,39 @@ const repository = {
 			"url": "https://virtualvasquez.github.io/Hangman-Game/",
 		},
 		{
-			"name": "burgers",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+			"name": "Burgers",
+			"url": "https://sleepy-fortress-91819.herokuapp.com/"
 		},
 		{
-			"name": "vibez",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+			"name": "Emerald Escalation",
+			"url": "https://virtualvasquez.github.io/week-4-game/"
 		},
 		{
-			"name": "testing",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+			"name": "Animating Anime",
+			"url": "https://virtualvasquez.github.io/Ajax-Gifs/"
 		},
 		{
-			"name": "testing",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+			// NOT A WEBSITE
+			"name": "LIRI",
+			"url": "https://github.com/VirtualVasquez/liri-node-app"
 		},
 		{
-			"name": "testing",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+			//NOT A WEBSITE
+			"name": "Node-MySQL Storefront",
+			"url": "https://github.com/VirtualVasquez/Node-MySQL-Storefront"
 		},
 		{
-			"name": "testing",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
+			"name": "Friend Finder",
+			"url": "https://obscure-fjord-17821.herokuapp.com/"
 		},
 		{
-			"name": "testing",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
-		},
+			"name": "Mega Man X Trivia Game",
+			"url": "https://virtualvasquez.github.io/TriviaGame/"
+		},	
 		{
-			"name": "testing",
-			"url": "https://virtualvasquez.github.io/Hangman-Game/"
-		}							
+			"name": "Almanac JS",
+			"url": "https://almanac-js.herokuapp.com/"
+		}	
 	]
 }
 

@@ -55,7 +55,16 @@ main {
 
 #eSkills {
 	padding: 2%;
+	text-align: center;
 }
+
+table, td, th{
+	padding: 1%;
+	border-color: green;
+	border-style: solid;
+	border-size: 4px;
+}
+
 
 .yellow {
 	background-color: yellow;
