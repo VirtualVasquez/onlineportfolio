@@ -13,14 +13,13 @@
 
 
 <body>
-
 <nav>
   <h1 id="brand">Melvin Vasquez</h1>
-  <div id="test">
-  <h4>Connect</h4>     
-  <h4>Portfolio</h4>
-  <h4>About Me</h4>
-  <div>
+  <ul id="test">
+  <li>Connect</li>     
+  <li>Portfolio</li>
+  <li>About Me</li>
+  </ul>
 </nav>
 
 <main>
@@ -36,21 +35,13 @@
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
     </article>
-
-
   </section>
 
-
-
-
   <section id="portfolio" class="yellow">
-    <header id="target">
+    <header id="targetOne">
       <h2>Projects (Eh, might want a better name here)</h2>
     </header>
   </section>
-
-
-
 
   <section id="eSkills" class="yellow">
     <header>
@@ -59,35 +50,18 @@
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   </section>
 
-
-
-
   <section id="experience" class="yellow">
 
-    <header>
+    <header id="targetTwo">
       <h2>Work Experience</h2>
     </header>
-
-    <div class="expRec">
-        <div class="jobDetails">
-              <aside>
-                <img class="thumbnail" src="assets/images/thd.jpg">
-              </aside>
-                  <h3 class="jobHeader">Bilingual Flooring Retail Associate | <span>From: {{Month Year}} To: {{Month Year}}</span></h3>
-              
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
-                  </p>
-                  <p>Just a test line to see how this works.</p>
-        </div>
-    </div>
-            
   </section>  
 
 
 </main>
 
 
-
+ 
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
       <div class="square bg img1 project">
@@ -99,19 +73,29 @@
           </div>
         </div>
       </div>
-    {{/each}}
+    {{/each}}     
   </script>
-
   <script id="job-template" type="text/x-handlebars-template">
-    {{#each job}}
-      <div>
-      </div>
-    {{/each}}
-  </script>
+    {{#each jobs}}
+    <div class="jobDetails">
+      
+      <aside>
+        <img class="thumbnail" src="assets/images/{{shortcode}}.jpg">
+      </aside>
 
+      <h3 class="jobHeader">{{title}} | <span>From: {{start}} To: {{end}}</span></h3>
+              
+        <p>{{descript}}</p>
+        
+        <p>Just a test line to see how this works.</p>
+
+    </div>
+    {{/each}}    
+  </script>
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/handlebars-v4.0.11.js"></script>
   <script src="assets/js/script.js"></script>  
+
 
 </body>
 </html>
