@@ -1,3 +1,4 @@
+/*Universal Changes*/
 main {
 	background-color: blue;
 	overflow: auto;
@@ -14,6 +15,19 @@ main {
 /*	margin-left: 2.5%;
 	margin-right: 2.5%;*/
 }
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 48px;
+}
+h3{ font-size: 28px; }
+
+table, p{
+	font-size: 20px;
+}
+
+/*End of Universal Changes*/
 
 /*About Section*/
 #about header{
@@ -25,18 +39,11 @@ main {
 #about{
 	display: flex;
 	padding: 0.5%;
+	margin: 2% 10% 2% 10%;
+	width: 80%;
 }
 
-#about h1{
-	font-size: 60px;
-}
-#about h2{
-	font-size: 48px;
-}
 
-#about p{
-	font-size: 30px;
-}
 
 #headshot{
 	display: inline-block;
@@ -75,9 +82,10 @@ main {
 /*End of About Section*/
 
 /*Start of Skills Section*/
-#eSkills {
-	padding: 2%;
+#skills {
 	text-align: center;
+	width: 60%;
+	margin:2% 20% 2% 20%;
 }
 
 table, td, th{
@@ -90,27 +98,27 @@ table, td, th{
 
 /*End of Skills Section*/
 
+/*Start of Portfolio SEction*/
+#portfolio header, #portfolio h2, #portfolio p{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#portfolio{
+	margin:2% 20% 2% 20%;
+	display: flex;
+	width: 60%;
+}
 
 
+/*End of Portfolio section*/
 #experience header{
 	text-align: center;
 }
 
-#portfolio h2{
-	display: block;
-	background-color: pink;
-	width: 100%;
+#experience{
+		margin:2% 20% 2% 20%;
+		width: 60%;
+
 }
-
-#portfolio{
-	margin-top: 10%;
-	margin-bottom: 10%;
-	display: flex;
-}
-
-#portfolio header{
-	width: 100%;
-	display: block;
-}
-
-

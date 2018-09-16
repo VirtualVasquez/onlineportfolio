@@ -41,7 +41,7 @@
     </article>
   </section>
 
-    <section id="eSkills" class="yellow">
+    <section id="skills" class="yellow">
 
     <header>
       <h2>Skills</h2>
@@ -103,7 +103,8 @@
 
   <section id="portfolio" class="yellow">
     <header id="targetOne">
-      <h2>Projects (Eh, might want a better name here)</h2>
+      <h2>Projects</h2>
+      <p>Here are some of my projects</p>
     </header>
   </section>
 
@@ -111,7 +112,7 @@
 
   <section id="experience" class="yellow">
 
-    <header >
+    <header>
       <h2>Work Experience</h2>
     </header>
 
@@ -126,17 +127,15 @@
  
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
-      <button class="square bg img1 project">
+      <div class="square bg project">
         <div class="content">
-          <div class="table">
-            <div class="table-cell">
               <h3><strong>{{name}}</strong></h3>
-            </div>
-          </div>
         </div>
-      </button>
+      </div>
     {{/each}}     
   </script>
+
+
   <script id="job-template" type="text/x-handlebars-template">
     {{#each jobs}}
     <div class="jobDetails">
