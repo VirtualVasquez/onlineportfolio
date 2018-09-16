@@ -13,26 +13,30 @@
 
 
 <body>
-<nav>
+<!-- <nav>
   <h1 id="brand">Melvin Vasquez</h1>
   <ul id="test">
   <li>Connect</li>     
   <li>Portfolio</li>
   <li>About Me</li>
   </ul>
-</nav>
+</nav> -->
 
 <main>
 
   <section id="about" class="yellow">
     <article id="bioBox">
       <header>
-        <h1>About Me</h1>
+        <h1>Melvin Vasquez</h1>
+        <h2>Full Stack Web Developer</h2>
       </header>
-      <div id="headshot">
-      </div>
+      <img id="headshot">
+      </img>
+      <p> Greetings, my name is Melvin Vasquez, and I am a Full Stack Web Developer.</p> 
+      <p>I can create a fully functional website from the Front-End, like the fancy fonts and amazing animations on a webpage, to the Back-End, such as utilizing APIs like Google Maps and establishing databases and server connections. 
+      </p>
       <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        I maintain a mindset like that of Andrew Carnegie; I'm always trying to learn new techniques and technologies, seeking the best and most efficient manner by which I can proceed, both in and out of the realm of coding. No matter the difficulty, I am determined to see something all the way through. 
       </p>
     </article>
   </section>
@@ -46,8 +50,8 @@
     <table style="width:100%">
       <tr>
         
-        <th>Front End</th>
-        <th>Back End</th>
+        <th class="half"><p>Front End</p> <p>(The Stuff You Can See)</p></th>
+        <th class="half"><p>Back End</p> <p>(The Things Behind-The-Scenes)</p></th>
       </tr>
 
       <tr>
@@ -55,8 +59,8 @@
       </tr>
 
       <tr>
-        <td>HTML5 (Front End)</td>
-        <td rowspan="3">Node.js (Back End)</td>
+        <td>HTML5</td>
+        <td rowspan="3">Node.js</td>
       </tr>
 
       <tr>
@@ -90,7 +94,7 @@
 
       <tr>
         <td>Moment</td>
-        <td>Mongoose (for MongoDB (Back End)</td>
+        <td>Mongoose (for MongoDB)</td>
       </tr>
 
     </table>
@@ -107,9 +111,12 @@
 
   <section id="experience" class="yellow">
 
-    <header id="targetTwo">
+    <header >
       <h2>Work Experience</h2>
     </header>
+
+    <div id="targetTwo">
+    </div>
   </section>  
 
 
@@ -119,7 +126,7 @@
  
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
-      <div class="square bg img1 project">
+      <button class="square bg img1 project">
         <div class="content">
           <div class="table">
             <div class="table-cell">
@@ -127,7 +134,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </button>
     {{/each}}     
   </script>
   <script id="job-template" type="text/x-handlebars-template">
@@ -142,7 +149,6 @@
               
         <p>{{descript}}</p>
         
-        <p>Just a test line to see how this works.</p>
 
     </div>
     {{/each}}    

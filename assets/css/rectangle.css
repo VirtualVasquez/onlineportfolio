@@ -2,8 +2,10 @@
 	display: inline-block;
 	background-color: green;
 	padding:0.5%;
+	margin-bottom: 1%;
 	width: 90%;
-
+	margin-left: 5%;
+	text-align: left;
 }
 
 .jobDetails aside{
@@ -12,10 +14,9 @@
 	display: inline-block;
 }
 
-
 .thumbnail{
-	max-height: 150px;
-	max-width: 150px;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 .jobHeader span{

@@ -49,7 +49,20 @@ const history = {
 			"shortcode": "thd",
 			"start": "June 2014",
 			"end": "December 2016",
-			"descript": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type"
+			"descript": "Working in cooperation with members both in and outside of my department, my overall goal was to greet, qualify, recommmend, and close every customer. In addition, maintenance of our deparment, both virtually through information software applications, and physically, via upkeep of decorum using heavy machinery to restock and retrieve merchandise throughout the warehouse."
+		},
+		{
+			"title": "Chiropractic Assistant",
+			"shortcode": "usa",
+			"start": "December 2016",
+			"end": "April 2017",
+			"descript": "Responsible for scheduling patients for their appointments, collecting patient information, keeping track of and charging for patient's payments, guiding patients through therapuetic exercises and stretches."
+		},
+		{"title": "Clinical Assistant - Inpatient Physical Therapy",
+			"shortcode": "um",
+			"start": "May 2017",
+			"end": "Present (September 2018)",
+			"descript": ""
 		}
 
 	]
