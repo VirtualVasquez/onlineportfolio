@@ -3,6 +3,8 @@ const repository = {
 		{
 			"name": "Undertale HangMan",
 			"url": "https://virtualvasquez.github.io/Hangman-Game/",
+			"repo": "https://github.com/VirtualVasquez/Hangman-Game",
+			"descript": "Using jQuery (and determination) to create a game of hangman"
 		},
 		{
 			"name": "Burgers",
