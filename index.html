@@ -123,13 +123,33 @@
 
 </main>
 
-
+<!--     {{#each projects}}
+      <div class="square bg project">
+        <div class="content">
+          
+              <h3><strong>{{name}}</strong></h3>
+              
+        </div>
+      </div>
+    {{/each}}  -->
  
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
       <div class="square bg project">
         <div class="content">
-              <h3><strong>{{name}}</strong></h3>
+          
+          <p>{{preview}}</p>
+
+          <div class="remote">
+
+          {{#if url}}<a href="{{url}}"><button>Website</button></a>{{/if}}
+          
+          {{#unless url}}{{/unless}}
+          
+          <a href="{{repo}}"><button>GitHub Repo</button></a>
+            
+          </div>
+
         </div>
       </div>
     {{/each}}     
@@ -148,7 +168,6 @@
               
         <p>{{descript}}</p>
         
-
     </div>
     {{/each}}    
   </script>

@@ -100,15 +100,16 @@ table, td, th{
 
 /*Start of Portfolio SEction*/
 #portfolio header, #portfolio h2, #portfolio p{
-	display: block;
-	width: 100%;
+/*	display: block;
+*/	width: 100%;
 	text-align: center;
+	
 }
 
 #portfolio{
-	margin:2% 20% 2% 20%;
+	margin:2% 10% 2% 10%;
 	display: flex;
-	width: 60%;
+	width: 80%;
 }
 
 

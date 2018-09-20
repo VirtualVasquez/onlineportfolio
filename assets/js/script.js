@@ -4,41 +4,58 @@ const repository = {
 			"name": "Undertale HangMan",
 			"url": "https://virtualvasquez.github.io/Hangman-Game/",
 			"repo": "https://github.com/VirtualVasquez/Hangman-Game",
-			"descript": "Using jQuery (and determination) to create a game of hangman"
-		},
-		{
-			"name": "Burgers",
-			"url": "https://sleepy-fortress-91819.herokuapp.com/"
+			"preview": "Hangman, made with javascript and determination."
 		},
 		{
 			"name": "Emerald Escalation",
-			"url": "https://virtualvasquez.github.io/week-4-game/"
+			"url": "https://virtualvasquez.github.io/week-4-game/",
+			"repo": "https://github.com/VirtualVasquez/week-4-game",
+			"preview": "A number game using bootsrap and jQuery. & Knuckles."
+		},
+		{
+			"name": "Mega Man X Trivia Game",
+			"url": "https://virtualvasquez.github.io/TriviaGame/",
+			"repo": "https://github.com/VirtualVasquez/TriviaGame",
+			"preview": "Test your knowledge of Mega Man X against the clock."
 		},
 		{
 			"name": "Animating Anime",
-			"url": "https://virtualvasquez.github.io/Ajax-Gifs/"
+			"url": "https://virtualvasquez.github.io/Ajax-Gifs/",
+			"repo": "https://github.com/VirtualVasquez/Ajax-Gifs",
+			"preview": "Using APIs to get you G-I-F's of A-ni-me."
+
 		},
 		{
 			// NOT A WEBSITE
 			"name": "LIRI",
-			"url": "https://github.com/VirtualVasquez/liri-node-app"
+			// NO URL AVAILABLE -- FIX REPO WITH SCREENSHOTS!
+			"repo": "https://github.com/VirtualVasquez/week-4-game",
+			"preview": "Hey LIRI, demonstrate APIs and Node.js in the terminal."
 		},
 		{
 			//NOT A WEBSITE
 			"name": "Node-MySQL Storefront",
-			"url": "https://github.com/VirtualVasquez/Node-MySQL-Storefront"
+			// NO URL AVIALABLE
+			"repo": "https://github.com/VirtualVasquez/Node-MySQL-Storefront",
+			"preview": "An introduction to MySQL Databases in the terminal."
 		},
 		{
 			"name": "Friend Finder",
-			"url": "https://obscure-fjord-17821.herokuapp.com/"
+			"url": "https://obscure-fjord-17821.herokuapp.com/",
+			"repo": "https://github.com/VirtualVasquez/FriendFinder",
+			"preview": "An Express delivery of a new friend. "
 		},
 		{
-			"name": "Mega Man X Trivia Game",
-			"url": "https://virtualvasquez.github.io/TriviaGame/"
+			"name": "Burgers",
+			"url": "https://sleepy-fortress-91819.herokuapp.com/",
+			"repo": "https://github.com/VirtualVasquez/burger",
+			"preview": "Getting a handle on your burgers, and serving them to and from a database."
 		},	
 		{
 			"name": "Almanac JS",
-			"url": "https://almanac-js.herokuapp.com/"
+			"url": "https://almanac-js.herokuapp.com/",
+			"repo": "https://github.com/VirtualVasquez/Team-Fourtress",
+			"preview": "A group effort to learn new javascript methods on a whim."
 		}	
 	]
 }
