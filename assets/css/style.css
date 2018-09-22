@@ -3,8 +3,8 @@ main {
 	background-color: blue;
 	overflow: auto;
 	display: block;
-	float: right;
 }
+
 .yellow {
 	background-color: yellow;
 	border-color: red;
@@ -20,14 +20,17 @@ h2{
 h3{ 
 	font-size: 28px; 
 }
+h4{
+	font-size: 24px;
+}
 
 table, p{
 	font-size: 20px;
 }
 
 header{
-	background-color: cyan;
-}
+/*	background-color: cyan;
+*/}
 /*End of Universal Changes*/
 
 /*About Section*/
@@ -112,11 +115,10 @@ table, td, th{
     align-content: center;
 }
 
-#portfolio header, #portfolio p, #portfolio h3{
+#pTitle{
 	display: block;
 	min-width: 100%;
 	text-align: center;
-/*	background-color: cyan;*/	
 }
 
 #targetOne{
@@ -124,9 +126,6 @@ table, td, th{
 	min-width: 100%;
 	background-color: pink;
 }
-
-
-
 
 
 /*End of Portfolio section*/

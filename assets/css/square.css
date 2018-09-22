@@ -6,24 +6,43 @@
     margin:1.5%;
     background-color:#1E1E1E;
     overflow:hidden;
+    color: white;
 }
 
-/*.content p{
-    margin-top: 20%;
+/*HoverOff div settings*/
+
+.hoverOff{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.hoverOff header{
+    text-align: center;
+    margin-top: 45%;
+}
+/*End of HoverOff div settings*/
+
+/*HoverOn div settings*/
+
+.top{
+    text-align: center;
     width: 80%;
-}*/
+    margin-left: 10%;
+}
+.top h4{
+    margin-top: 20%;
+}
 
 a, button{
     display: block;
     width:100%;
     margin-bottom: 10%;
-/*    margin-left: 10%;
-    position: absolute;
-    bottom: 0;*/
 }
 
 button{
     line-height: 250%;
+    font-size: 20px;
 }
 
 .buttons{
@@ -34,19 +53,15 @@ button{
     margin-left: 10%;
     height: 50%;
 }
+/*End of HoverOn div Settings*/
 
 
-/*.content,*/ .hoverOff, .hoverOn {
+.hoverOff, .hoverOn {
     position:absolute;
-    /*height:100%;*/ /* = 100% - 2*5% padding */
-    /*width:100%;*/ /* = 100% - 2*5% padding */
-    /* max-height:100%;
-    max-width:100%;*/
-    vertical-align: middle;
-    background-color: red;
-    width: 80%;
-    height:80%;
-    margin: 10% 10% 0% 10%;
+    background-color: green;
+    width: 90%;
+    height:90%;
+    margin: 5% 5% 0% 5%;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
@@ -55,14 +70,9 @@ button{
     align-content: center;
 }
 
-/*  For responsive images as background */
 
-.bg{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
-}
+
+
 
 .hoverOn{
     display: none;
