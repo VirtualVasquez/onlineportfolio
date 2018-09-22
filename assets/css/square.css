@@ -8,10 +8,10 @@
     overflow:hidden;
 }
 
-.content p{
-/*    margin-top: 20%;
-*/    width: 80%;
-}
+/*.content p{
+    margin-top: 20%;
+    width: 80%;
+}*/
 
 a, button{
     display: block;
@@ -26,7 +26,7 @@ button{
     line-height: 250%;
 }
 
-.remote{
+.buttons{
     position: absolute;
     bottom: 0;
     align-content: center;
@@ -36,7 +36,7 @@ button{
 }
 
 
-.content {
+/*.content,*/ .hoverOff, .hoverOn {
     position:absolute;
     /*height:100%;*/ /* = 100% - 2*5% padding */
     /*width:100%;*/ /* = 100% - 2*5% padding */
@@ -55,7 +55,6 @@ button{
     align-content: center;
 }
 
-
 /*  For responsive images as background */
 
 .bg{
@@ -63,4 +62,20 @@ button{
     background-repeat:no-repeat;
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
     color:#fff;
+}
+
+.hoverOn{
+    display: none;
+}
+
+.hoverOff{
+    display: block;
+}
+
+.square:hover .hoverOn{
+    display: block;
+}
+
+.square:hover .hoverOff{
+    display: none;
 }

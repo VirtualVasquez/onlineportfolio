@@ -4,58 +4,66 @@ const repository = {
 			"name": "Undertale HangMan",
 			"url": "https://virtualvasquez.github.io/Hangman-Game/",
 			"repo": "https://github.com/VirtualVasquez/Hangman-Game",
-			"preview": "Hangman, made with javascript and determination."
+			"preview": "Hangman, made with javascript and determination.",
+			"picture": "sans"
 		},
 		{
 			"name": "Emerald Escalation",
 			"url": "https://virtualvasquez.github.io/week-4-game/",
 			"repo": "https://github.com/VirtualVasquez/week-4-game",
-			"preview": "A number game using bootsrap and jQuery. & Knuckles."
+			"preview": "A number game using bootsrap and jQuery. & Knuckles.",
+			"picture": "chaos"
 		},
 		{
 			"name": "Mega Man X Trivia Game",
 			"url": "https://virtualvasquez.github.io/TriviaGame/",
 			"repo": "https://github.com/VirtualVasquez/TriviaGame",
-			"preview": "Test your knowledge of Mega Man X against the clock."
+			"preview": "Test your knowledge of Mega Man X against the clock.",
+			"picture": ""
 		},
 		{
 			"name": "Animating Anime",
 			"url": "https://virtualvasquez.github.io/Ajax-Gifs/",
 			"repo": "https://github.com/VirtualVasquez/Ajax-Gifs",
-			"preview": "Using APIs to get you G-I-F's of A-ni-me."
-
+			"preview": "Using APIs to get you G-I-F's of A-ni-me.",
+			"picture":
 		},
 		{
 			// NOT A WEBSITE
 			"name": "LIRI",
 			// NO URL AVAILABLE -- FIX REPO WITH SCREENSHOTS!
 			"repo": "https://github.com/VirtualVasquez/week-4-game",
-			"preview": "Hey LIRI, demonstrate APIs and Node.js in the terminal."
+			"preview": "Hey LIRI, demonstrate APIs and Node.js in the terminal.",
+			"picture":
 		},
 		{
 			//NOT A WEBSITE
 			"name": "Node-MySQL Storefront",
 			// NO URL AVIALABLE
 			"repo": "https://github.com/VirtualVasquez/Node-MySQL-Storefront",
-			"preview": "An introduction to MySQL Databases in the terminal."
+			"preview": "An introduction to MySQL Databases in the terminal.",
+			"picture":
 		},
 		{
 			"name": "Friend Finder",
 			"url": "https://obscure-fjord-17821.herokuapp.com/",
 			"repo": "https://github.com/VirtualVasquez/FriendFinder",
-			"preview": "An Express delivery of a new friend. "
+			"preview": "An Express delivery of a new friend.",
+			"picture":
 		},
 		{
 			"name": "Burgers",
 			"url": "https://sleepy-fortress-91819.herokuapp.com/",
 			"repo": "https://github.com/VirtualVasquez/burger",
-			"preview": "Getting a handle on your burgers, and serving them to and from a database."
+			"preview": "Getting a handle on your burgers, and serving them to and from a database.",
+			"picture":
 		},	
 		{
 			"name": "Almanac JS",
 			"url": "https://almanac-js.herokuapp.com/",
 			"repo": "https://github.com/VirtualVasquez/Team-Fourtress",
-			"preview": "A group effort to learn new javascript methods on a whim."
+			"preview": "A group effort to learn new javascript methods on a whim.",
+			"picture":
 		}	
 	]
 }
@@ -90,9 +98,10 @@ const history = {
 $(document).ready(function(){
 	var projectTemplate = $("#project-template").html();
 	var compiledProjectTemplate = Handlebars.compile(projectTemplate);
-	$("#targetOne").append(compiledProjectTemplate(repository));
+	$("#targetOne").html(compiledProjectTemplate(repository));
 
 	var jobTemplate = $("#job-template").html();
 	var compiledJobTemplate = Handlebars.compile(jobTemplate);
 	$("#targetTwo").html(compiledJobTemplate(history));
 });
+

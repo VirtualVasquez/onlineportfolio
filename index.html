@@ -102,10 +102,12 @@
   </section>
 
   <section id="portfolio" class="yellow">
-    <header id="targetOne">
+    <header class="green">
       <h2>Projects</h2>
       <p>Here are some of my projects</p>
     </header>
+    <div id="targetOne">
+    </div>
   </section>
 
 
@@ -127,8 +129,21 @@
       <div class="square bg project">
         <div class="content">
           
-              <h3><strong>{{name}}</strong></h3>
-              
+          <div class="hoverOff">
+            <h3><strong>{{name}}</strong></h3>
+          </div>
+
+          <div class="hoverOn">
+            <div class="top">
+              <p>{{preview}}</p>
+            </div>
+            <div class="buttons">
+              {{#if url}}<a href="{{url}}"><button>Website</button></a>{{/if}}
+              {{#unless url}}{{/unless}}
+              <a href="{{repo}}"><button>GitHub Repo</button></a>
+            </div>
+          </div>
+
         </div>
       </div>
     {{/each}}  -->
@@ -136,21 +151,23 @@
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
       <div class="square bg project">
-        <div class="content">
-          
-          <p>{{preview}}</p>
 
-          <div class="remote">
-
-          {{#if url}}<a href="{{url}}"><button>Website</button></a>{{/if}}
-          
-          {{#unless url}}{{/unless}}
-          
-          <a href="{{repo}}"><button>GitHub Repo</button></a>
-            
+          <div class="hoverOff">
+            <h3><strong>{{name}}</strong></h3>
+            <img src="assets/images/{{picture}}.png"> 
           </div>
 
-        </div>
+          <div class="hoverOn">
+            <div class="top">
+              <p>{{preview}}</p>
+            </div>
+            <div class="buttons">
+              {{#if url}}<a href="{{url}}"><button>Website</button></a>{{/if}}
+              {{#unless url}}{{/unless}}
+              <a href="{{repo}}"><button>GitHub Repo</button></a>
+            </div>
+          </div>
+
       </div>
     {{/each}}     
   </script>
