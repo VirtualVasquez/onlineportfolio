@@ -4,10 +4,12 @@
   <meta charset ="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Online-Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
   <link rel="stylesheet" type="text/css" href="assets/css/square.css">
   <link rel="stylesheet" type="text/css" href="assets/css/rectangle.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/connect.css">
 
 </head>
 
@@ -25,20 +27,26 @@
 <main>
 
   <section id="about" class="yellow">
-    <article id="bioBox">
       <header>
         <h1>Melvin Vasquez</h1>
         <h2>Full Stack Web Developer</h2>
       </header>
-      <img id="headshot">
-      </img>
-      <p> Greetings, my name is Melvin Vasquez, and I am a Full Stack Web Developer.</p> 
-      <p>I can create a fully functional website from the Front-End, like the fancy fonts and amazing animations on a webpage, to the Back-End, such as utilizing APIs like Google Maps and establishing databases and server connections. 
-      </p>
-      <p>
-        I maintain a mindset like that of Andrew Carnegie; I'm always trying to learn new techniques and technologies, seeking the best and most efficient manner by which I can proceed, both in and out of the realm of coding. No matter the difficulty, I am determined to see something all the way through. 
-      </p>
-    </article>
+
+      <div id="flex">
+        <div id="headshot">
+        </div>
+
+        <div id="intro">
+          <p> Greetings, my name is Melvin Vasquez, and I am a Full Stack Web Developer.</p> 
+          <p>I can create a fully functional website from the Front-End, like the fancy fonts and amazing animations on a webpage, to the Back-End, such as utilizing APIs like Google Maps and establishing databases and server connections. 
+          </p>
+          <p>
+            I maintain a mindset like that of Andrew Carnegie; I'm always trying to learn new techniques and technologies, seeking the best and most efficient manner by which I can proceed, both in and out of the realm of coding. No matter the difficulty, I am determined to see something all the way through. 
+          </p>
+        </div>
+        
+      </div>
+
   </section>
 
     <section id="skills" class="yellow">
@@ -110,8 +118,6 @@
     </div>
   </section>
 
-
-
   <section id="experience" class="yellow">
 
     <header>
@@ -120,10 +126,33 @@
 
     <div id="targetTwo">
     </div>
-  </section>  
+  </section> 
+
+  <section id="connections" class="yellow">
+    <header>
+      <h2>Connect With Me</h2>
+    </header>
+
+    <div id="icons">
+      <a href="https://www.linkedin.com/in/melvin-vasquez-868618137/" class="fa fa-linkedin"></a>
+      <a href="https://github.com/VirtualVasquez" class="fa fa-github"></a>
+      <a href="https://twitter.com/VirtualVasquez" class="fa fa-twitter"></a>
+      <a href="https://www.meetup.com/members/206665702/" class="fa fa-meetup"></a>
+      <a href="#" class="fa fa-file-text-o"></a>
+      <a href="mvasq95@hotmail.com" class="fa fa-envelope-o"></a>
+    </div>
+
+
+  </section> 
+
+
 
 
 </main>
+
+  <footer>
+    <h5>Created by Melvin Vasquez</h6>
+  </footer>
 
 <!--     {{#each projects}}
       <div class="square bg project">
@@ -147,6 +176,18 @@
         </div>
       </div>
     {{/each}}  -->
+
+<!--     <div class="jobDetails">
+      
+      <aside>
+        <img class="thumbnail" src="assets/images/{{shortcode}}.jpg">
+      </aside>
+
+      <h3 class="jobHeader">{{title}} | <span>From: {{start}} To: {{end}}</span></h3>
+              
+        <p>{{descript}}</p>
+        
+    </div> -->
  
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
@@ -174,15 +215,18 @@
 
   <script id="job-template" type="text/x-handlebars-template">
     {{#each jobs}}
-    <div class="jobDetails">
+    <div class="job">
       
-      <aside>
-        <img class="thumbnail" src="assets/images/{{shortcode}}.jpg">
-      </aside>
+      <img class="thumbnail" style="background-image:url('assets/images/{{shortcode}}.jpg')">
+      </img>
 
-      <h3 class="jobHeader">{{title}} | <span>From: {{start}} To: {{end}}</span></h3>
-              
-        <p>{{descript}}</p>
+
+      <div class="words">
+        <h3 class="jobHeader">{{title}} | <span>From: {{start}} To: {{end}}</span></h3>
+                
+          <p>{{descript}}</p>
+      </div>
+
         
     </div>
     {{/each}}    

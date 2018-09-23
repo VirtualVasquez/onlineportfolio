@@ -1,0 +1,48 @@
+.fa {
+  width: 5%;
+  padding: 5%;
+  font-size: 150%;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  background:gray;
+}
+
+#icons{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-meetup {
+  background: #f40083;
+  color: white;
+}
+
+.fa-file-text-o {
+  background: #ffffff;
+  color: black;
+}
+
+.fa-envelope-o {
+  background: #c6b451;
+  color: white;
+}*/

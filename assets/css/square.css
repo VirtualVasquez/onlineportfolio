@@ -4,9 +4,9 @@
     width: 30%;
     padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
     margin:1.5%;
-    background-color:#1E1E1E;
-    overflow:hidden;
-    color: white;
+/*    background-color:#1E1E1E;
+*/    overflow:hidden;
+    color: cyan;
 }
 
 /*HoverOff div settings*/
@@ -31,7 +31,7 @@
     margin-left: 10%;
 }
 .top h4{
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 a, button{
@@ -58,8 +58,8 @@ button{
 
 .hoverOff, .hoverOn {
     position:absolute;
-    background-color: green;
-    width: 90%;
+/*    background-color: green;
+*/    width: 90%;
     height:90%;
     margin: 5% 5% 0% 5%;
     display: -webkit-flex;
