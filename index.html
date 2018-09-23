@@ -44,26 +44,26 @@
             I maintain a mindset like that of Andrew Carnegie; I'm always trying to learn new techniques and technologies, seeking the best and most efficient manner by which I can proceed, both in and out of the realm of coding. No matter the difficulty, I am determined to see something all the way through. 
           </p>
         </div>
-        
+
       </div>
 
   </section>
 
-    <section id="skills" class="yellow">
+  <section id="skills" class="yellow">
 
     <header>
       <h2>Skills</h2>
     </header>
 
-    <table style="width:100%">
+    <table>
       <tr>
         
-        <th class="half"><p>Front End</p> <p>(The Stuff You Can See)</p></th>
-        <th class="half"><p>Back End</p> <p>(The Things Behind-The-Scenes)</p></th>
+        <th class="half"><p>Front End</p> <!-- <p>(The Stuff You Can See)</p> --></th>
+        <th class="half"><p>Back End</p><!--  <p>(The Things Behind-The-Scenes)</p> --></th>
       </tr>
 
       <tr>
-        <th colspan="2">Languages I Speak</th>
+        <th colspan="2" class="twoCols">Languages I Speak</th>
       </tr>
 
       <tr>
@@ -80,7 +80,7 @@
       </tr>
 
       <tr>
-        <th colspan="2">Familiar FrameWorks</th>
+        <th colspan="2" class="twoCols">Familiar FrameWorks</th>
       </tr>
 
       <tr>
@@ -92,17 +92,17 @@
       </tr>
 
       <tr>
-        <th colspan="2">Libraries</th>
+        <th colspan="2" class="twoCols">Libraries</th>
       </tr>
 
       <tr>
         <td>jQuery</td>
-        <td>Sequelize (for MySQL Databases)</td>
+        <td>Sequelize <!-- (for MySQL Databases) --></td>
       </tr>
 
       <tr>
         <td>Moment</td>
-        <td>Mongoose (for MongoDB)</td>
+        <td>Mongoose <!-- (for MongoDB) --></td>
       </tr>
 
     </table>
@@ -153,53 +153,18 @@
   <footer>
     <h5>Created by Melvin Vasquez</h6>
   </footer>
-
-<!--     {{#each projects}}
-      <div class="square bg project">
-        <div class="content">
-          
-          <div class="hoverOff">
-            <h3><strong>{{name}}</strong></h3>
-          </div>
-
-          <div class="hoverOn">
-            <div class="top">
-              <p>{{preview}}</p>
-            </div>
-            <div class="buttons">
-              {{#if url}}<a href="{{url}}"><button>Website</button></a>{{/if}}
-              {{#unless url}}{{/unless}}
-              <a href="{{repo}}"><button>GitHub Repo</button></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    {{/each}}  -->
-
-<!--     <div class="jobDetails">
-      
-      <aside>
-        <img class="thumbnail" src="assets/images/{{shortcode}}.jpg">
-      </aside>
-
-      <h3 class="jobHeader">{{title}} | <span>From: {{start}} To: {{end}}</span></h3>
-              
-        <p>{{descript}}</p>
-        
-    </div> -->
  
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
       <div class="square">
 
           <div class="hoverOff" style="background-image:url('assets/images/{{picture}}.png')">
-            <header><h3><strong>{{name}}</strong></h3></header>
+            <h3><strong>{{name}}</strong></h3>
           </div>
 
           <div class="hoverOn">
             <div class="top">
-              <h4>{{preview}}</h4>
+              <p>{{preview}}</p>
             </div>
             <div class="buttons">
               {{#if url}}<a href="{{url}}"><button>Website</button></a>{{/if}}

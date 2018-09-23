@@ -7,6 +7,7 @@
 /*    background-color:#1E1E1E;
 */    overflow:hidden;
     color: cyan;
+    display: inline-flex;
 }
 
 /*HoverOff div settings*/
@@ -14,12 +15,21 @@
 .hoverOff{
     background-position:center center;
     background-repeat:no-repeat;
-    background-size:contain; /* you change this to "contain" if you don't want the images to be cropped */
+    background-size:contain;
+/*    background-color: pink;
+*/
 }
 
-.hoverOff header{
+.hoverOff h3{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 45%;
+
+
 }
 /*End of HoverOff div settings*/
 
@@ -40,18 +50,17 @@ a, button{
     margin-bottom: 10%;
 }
 
-button{
+/*button{
     line-height: 250%;
-    font-size: 20px;
 }
-
+*/
 .buttons{
     position: absolute;
     bottom: 0;
     align-content: center;
-    width: 80%;
-    margin-left: 10%;
-    height: 50%;
+    width: 100%;
+/*    margin-left: 10%;
+    height: 50%;*/
 }
 /*End of HoverOn div Settings*/
 

@@ -1,29 +1,39 @@
 /*Universal Changes*/
+body{
+	background-image: url(../images/crossword.png);
+}
+
+/*.yellow{
+	background-color: yellow;
+}*/
 main {
 /*	background-color: blue;
 */	overflow: auto;
 	display: block;
 	font-family: Helvetica;
+	width: 90%;
+	margin-left: 5%;
 }
 
-/*.yellow {
-	background-color: yellow;
-	border-color: red;
-	border-style: solid;
-	margin: 2% 2%;
-}*/
+section{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 1%;
+}
+
+
 
 h1{
 	font-size: 60px;
 }
 h2{
-	font-size: 48px;
+	font-size: 50px;
 }
 h3{ 
-	font-size: 28px; 
+	font-size: 40px; 
 }
 h4{
-	font-size: 24px;
+	font-size: 30px;
 }
 
 table, p{
@@ -35,10 +45,13 @@ table, p{
 /*About Section*/
 #about{
 	display: block;
+	background-color: #eaf1fc;
+	background-image: linear-gradient(#eaf1fc, #d7e3f7);
 }
 
 #about header{
 	text-align: center;
+
 
 }
 
@@ -76,28 +89,51 @@ table, p{
 /*Start of Skills Section*/
 #skills {
 	text-align: center;
-/*	width: 80%;
-	margin:2% 10% 2% 10%;*/
 }
 
-table, td, th{
+table{
+	width: 50%;
+	margin-left: 25%;
+	background-color: #f4f7fc;
+	border-color: #d9dbdd;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.half{
+	background-color: #d7e3f7;
+	background-image: linear-gradient(#f4f7fc, #d7e3f7);
+}
+
+.twoCols{
+	background-color: #eaf1fc;
+	background-image: linear-gradient(#eaf1fc, #d7e3f7);
+}
+
+td, th, tr{
 	padding: 1%;
+	width: 50%;
+	margin-left: 25%;
 /*	border-color: green;
 	border-style: solid;
-	border-size: 4px;
-*/}
+	border-width: 5px;*/
+}
 
-td
+
+
+
 
 
 /*End of Skills Section*/
 
 /*Start of Portfolio SEction*/
 #portfolio{
-/*	margin:2% 10% 2% 10%;
-*/	display: flex;
-/*	width: 80%;
-*/	 display: -webkit-flex;
+	margin-left:25%;
+/*	margin-right: 25%;
+*/	width: 50%;
+	display: flex;
+	 display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -114,6 +150,8 @@ td
 #targetOne{
 	display: block;
 	min-width: 100%;
+	margin-right: 25%;
+	width: 50%;
 /*	background-color: pink;
 */}
 
