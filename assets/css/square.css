@@ -43,10 +43,9 @@
     margin-top: 15%;
 }
 
-.buttons a, .buttons button{
+.buttons a, /*.buttons button*/{
     display: block;
     width:100%;
-    margin-bottom: 10%;
 }
 
 .buttons{
@@ -59,6 +58,16 @@
 .buttons button{
     background-color: #eaf1fc;
     background-image: linear-gradient(#eaf1fc, #d7e3f7);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    font-size: 16px;
+}
+
+.buttons button:hover{
+    background-color: #008CBA;
+    color: white;
+    background-image: linear-gradient(#d7e3f7, #008CBA);
 }
 /*End of HoverOn div Settings*/
 
