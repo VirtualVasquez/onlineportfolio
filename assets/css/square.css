@@ -4,10 +4,11 @@
     width: 30%;
     padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
     margin:1.5%;
-/*    background-color:#1E1E1E;
-*/    overflow:hidden;
-    color: cyan;
+    overflow:hidden;
+    color: white;
     display: inline-flex;
+    background-color: #eaf1fc;
+    background-image: linear-gradient(#eaf1fc, #d7e3f7)
 }
 
 /*HoverOff div settings*/
@@ -16,11 +17,9 @@
     background-position:center center;
     background-repeat:no-repeat;
     background-size:contain;
-/*    background-color: pink;
-*/
 }
 
-.hoverOff h3{
+.hoverOff h4{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -44,31 +43,29 @@
     margin-top: 15%;
 }
 
-a, button{
+.buttons a, .buttons button{
     display: block;
     width:100%;
     margin-bottom: 10%;
 }
 
-/*button{
-    line-height: 250%;
-}
-*/
 .buttons{
     position: absolute;
     bottom: 0;
     align-content: center;
     width: 100%;
-/*    margin-left: 10%;
-    height: 50%;*/
+}
+
+.buttons button{
+    background-color: #eaf1fc;
+    background-image: linear-gradient(#eaf1fc, #d7e3f7);
 }
 /*End of HoverOn div Settings*/
 
 
 .hoverOff, .hoverOn {
     position:absolute;
-/*    background-color: green;
-*/    width: 90%;
+    width: 90%;
     height:90%;
     margin: 5% 5% 0% 5%;
     display: -webkit-flex;
@@ -80,15 +77,14 @@ a, button{
 }
 
 
-
-
-
 .hoverOn{
     display: none;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .hoverOff{
     display: block;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .square:hover .hoverOn{

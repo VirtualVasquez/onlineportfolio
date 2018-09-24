@@ -31,7 +31,6 @@ const repository = {
 		{
 			// NOT A WEBSITE
 			"name": "LIRI",
-			// NO URL AVAILABLE -- FIX REPO WITH SCREENSHOTS!
 			"repo": "https://github.com/VirtualVasquez/week-4-game",
 			"preview": "Hey LIRI, demonstrate APIs and Node.js in the terminal.",
 			"picture": "liri"
@@ -39,7 +38,6 @@ const repository = {
 		{
 			//NOT A WEBSITE
 			"name": "Node-MySQL Storefront",
-			// NO URL AVIALABLE
 			"repo": "https://github.com/VirtualVasquez/Node-MySQL-Storefront",
 			"preview": "An introduction to MySQL Databases in the terminal.",
 			"picture": "cash"
@@ -55,14 +53,14 @@ const repository = {
 			"name": "Burgers",
 			"url": "https://sleepy-fortress-91819.herokuapp.com/",
 			"repo": "https://github.com/VirtualVasquez/burger",
-			"preview": "Getting a handle on your burgers, and serving them to and from a database.",
+			"preview": "Handling burgers, serving them to and from a database.",
 			"picture": "burger"
 		},	
 		{
 			"name": "Almanac JS",
 			"url": "https://almanac-js.herokuapp.com/",
 			"repo": "https://github.com/VirtualVasquez/Team-Fourtress",
-			"preview": "A group effort to learn new javascript methods on a whim.",
+			"preview": "Learn a new random javascript method, up to 365.",
 			"picture": "book"
 		}	
 	]

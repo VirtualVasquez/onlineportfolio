@@ -3,12 +3,15 @@ body{
 	background-image: url(../images/crossword.png);
 }
 
-/*.yellow{
-	background-color: yellow;
-}*/
+.yellow{
+	background-color: #e8effc;
+	background-image: linear-gradient(#e8effc, #c4d9fc);
+    box-shadow: 1px 5px 20px gray;
+    border: 1px solid; 
+}
+
 main {
-/*	background-color: blue;
-*/	overflow: auto;
+	overflow: auto;
 	display: block;
 	font-family: Helvetica;
 	width: 90%;
@@ -20,8 +23,6 @@ section{
 	margin-bottom: 3%;
 	padding: 1%;
 }
-
-
 
 h1{
 	font-size: 60px;
@@ -45,14 +46,10 @@ table, p{
 /*About Section*/
 #about{
 	display: block;
-	background-color: #eaf1fc;
-	background-image: linear-gradient(#eaf1fc, #d7e3f7);
 }
 
 #about header{
 	text-align: center;
-
-
 }
 
 #flex{
@@ -61,15 +58,9 @@ table, p{
 
 #headshot{
 	width: 30%;
-	padding-bottom: 30%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-/*	float: left;
-*/	display: inline-block;
-	background-position:center center;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-image: url(../images/Headshot.png);
+	height: 30%;
+	margin:2.5%;
+	float: left;
 }
 
 #intro{
@@ -78,8 +69,7 @@ table, p{
 	margin-left: 2.5%;
 	display: block;
 	vertical-align: top;
-/*	float: right;
-*/}
+}
 
 #intro p{
 	font-size: 28px !important;
@@ -102,8 +92,8 @@ table{
 }
 
 .half{
-	background-color: #d7e3f7;
-	background-image: linear-gradient(#f4f7fc, #d7e3f7);
+	background-color: #e8effc;
+	background-image: linear-gradient(#e8effc, #c4d9fc);
 }
 
 .twoCols{
@@ -115,23 +105,13 @@ td, th, tr{
 	padding: 1%;
 	width: 50%;
 	margin-left: 25%;
-/*	border-color: green;
-	border-style: solid;
-	border-width: 5px;*/
 }
-
-
-
-
-
-
 /*End of Skills Section*/
 
 /*Start of Portfolio SEction*/
 #portfolio{
-	margin-left:25%;
-/*	margin-right: 25%;
-*/	width: 50%;
+	margin-left:15%;
+	width: 70%;
 	display: flex;
 	 display: -webkit-flex;
     display: flex;
@@ -152,23 +132,9 @@ td, th, tr{
 	min-width: 100%;
 	margin-right: 25%;
 	width: 50%;
-/*	background-color: pink;
-*/}
-
-
+}
 /*End of Portfolio section*/
 #experience header{
 	text-align: center;
 }
 
-#experience{
-/*		margin:2% 10% 2% 10%;
-		width: 80%;*/
-
-}
-
-
-#connections {
-	align-content: center;
-	text-align: center;
-}
