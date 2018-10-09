@@ -31,7 +31,7 @@ const repository = {
 		{
 			// NOT A WEBSITE
 			"name": "LIRI",
-			"repo": "https://github.com/VirtualVasquez/week-4-game",
+			"repo": "https://github.com/VirtualVasquez/liri-node-app",
 			"preview": "Hey LIRI, demonstrate APIs and Node.js in the terminal.",
 			"picture": "liri"
 		},
