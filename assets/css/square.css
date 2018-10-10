@@ -36,11 +36,11 @@
 
 .top{
     text-align: center;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
 }
 .top h4{
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .buttons a, /*.buttons button*/{
