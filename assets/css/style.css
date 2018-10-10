@@ -15,8 +15,8 @@ main {
 /*	overflow: auto;
 */	display: block;
 	font-family: Helvetica;
-	width: 90%;
-	margin-left: 5%;
+	width: 80%;
+	margin-left: 10%;
 }
  
 section{
@@ -26,20 +26,20 @@ section{
 }
 
 h1{
-	font-size: 50px;
+	font-size: 40px;
 }
 h2{
-	font-size: 45px;
+	font-size: 35px;
 }
 h3{ 
-	font-size: 40px; 
+	font-size: 30px; 
 }
 h4{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 table, p{
-	font-size: 20px;
+	font-size: 16px;
 }
 
 /*End of Universal Changes*/
@@ -47,8 +47,8 @@ table, p{
 /*About Section*/
 #about{
 	display: block;
-	width: 80%;
-	margin-left: 10%;
+/*	width: 80%;
+	margin-left: 10%;*/
 }
 
 #about header{
@@ -74,19 +74,22 @@ table, p{
 	vertical-align: top;
 }
 
-#intro p{
-	font-size: 28px !important;
-}
+
 /*End of About Section*/
 
 /*Start of Skills Section*/
+header {
+	align-content: center;
+	text-align: center;
+}
 #skills {
 	text-align: center;
+	width: 100%;
 }
 
 table{
-	width: 50%;
-	margin-left: 25%;
+/*	width: 80%;
+	margin-left: 10%;*/
 	background-color: #f4f7fc;
 	border-color: #d9dbdd;
 	border-style: solid;
@@ -108,6 +111,7 @@ td, th, tr{
 	padding: 1%;
 	width: 50%;
 	margin-left: 25%;
+	margin-right: 25%;
 }
 /*End of Skills Section*/
 
@@ -132,16 +136,80 @@ td, th, tr{
 
 #targetOne{
 	display: block;
-/*	min-width: 100%;
-*/	margin-left: 25%;
-	width: 50%;
+	width: 100%;
 }
 /*End of Portfolio section*/
-#experience header{
-	text-align: center;
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #headshot {
+    	width: 80%;
+    	height: 80%;
+    	margin-left: 10%;
+    	margin-bottom: 10%;
+    	display: block;
+    }
+    #flex{
+	display: inline-block;
+	}
+	#intro{
+		width: 80%;
+		margin-left: 10%;
+		text-align: center;
+
+	}
+	tr, td, th{
+		padding: 2%;
+	}
+	.square {
+	    float:center;
+	    width: 80% !important;
+	    padding-bottom: 80% !important; /* = width for a 1:1 aspect ratio */
+		margin-left: 10% !important;
+	}
+	.top h4{
+		font-size: 16px !important;
+	}
+
 }
 
-#connections{
-	width: 50%;
-	margin-left: 25%;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    table{
+	width: 80% !important;
+	margin-left: 10% !important;
+	}
+	.square {
+	    float:center;
+	    width: 45% !important;
+	    padding-bottom: 45% !important;  /*= width for a 1:1 aspect ratio */
+	}
+	#portfolio {
+		align-content: center;
+		width: 90%;
+		margin-left: 5%;
+	}
+	.top h4{
+		font-size: 16px !important;
+	}
+	.hoverOff h2{
+		font-size: 30px;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {background: pink;}
 }

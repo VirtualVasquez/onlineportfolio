@@ -1,34 +1,18 @@
-#icons a{
-  width: 5%;
-  padding: 5%;
+.fa{
   text-align: center;
   text-decoration: none;
   color:white;
-  background:gray;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.fa{
-  font-size: 40px;
-}
-
-#icons{
-	width: 70%;
-	margin-left: 15%;
-  vertical-align: center;
+  cursor: pointer;
+  padding: 4%;
+  font-size: 200%;
+  background-image: linear-gradient(#cdd0d6, #6d7582)
 }
 
 .fa:hover {
     opacity: 0.7;
-    margin: 0;
 }
 
 #connections {
   align-content: center;
   text-align: center; 
-}
-
-#icons{
-  vertical-align: center;
 }

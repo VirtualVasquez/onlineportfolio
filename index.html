@@ -55,7 +55,7 @@
       <h2>Skills</h2>
     </header>
 
-    <table class="yellow">
+    <table id="skills" class="yellow">
       <tr>
         
         <th class="half"><p>Front End</p> <!-- <p>(The Stuff You Can See)</p> --></th>
@@ -133,7 +133,7 @@
       <h2>Connect With Me</h2>
     </header>
 
-    <div id="icons" class="yellow">
+    <div id="icons">
       <a href="https://www.linkedin.com/in/melvin-vasquez-868618137/" class="fa fa-linkedin"></a>
       <a href="https://github.com/VirtualVasquez" class="fa fa-github"></a>
       <a href="https://twitter.com/VirtualVasquez" class="fa fa-twitter"></a>
@@ -159,12 +159,12 @@
       <div class="square yellow">
 
           <div class="hoverOff" style="background-image:url('assets/images/{{picture}}.png')">
-            <h4><strong>{{name}}</strong></h4>
+            <h2><strong>{{name}}</strong></h2>
           </div>
 
           <div class="hoverOn">
             <div class="top">
-              <p>{{preview}}</p>
+              <h4>{{preview}}</h4>
             </div>
             <div class="buttons">
               {{#if url}}<a href="{{url}}"><button><strong>Website</strong></button></a>{{/if}}
@@ -177,25 +177,6 @@
     {{/each}}     
   </script>
 
-<!-- 
-  <script id="job-template" type="text/x-handlebars-template">
-    {{#each jobs}}
-    <div class="job yellow">
-      
-      <img class="thumbnail" style="background-image:url('assets/images/{{shortcode}}.jpg')">
-      </img>
-
-
-      <div class="words">
-        <h3 class="jobHeader">{{title}} | <span>From: {{start}} To: {{end}}</span></h3>
-                
-          <p>{{descript}}</p>
-      </div>
-
-        
-    </div>
-    {{/each}}    
-  </script> -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/handlebars-v4.0.11.js"></script>
   <script src="assets/js/script.js"></script>  
