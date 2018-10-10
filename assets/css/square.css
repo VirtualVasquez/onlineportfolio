@@ -1,12 +1,9 @@
 .square {
     float:left;
     position: relative;
-    width: 30%;
-    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
     margin:1.5%;
     overflow:hidden;
     color: white;
-    display: inline-flex;
     background-color: #eaf1fc;
     background-image: linear-gradient(#eaf1fc, #d7e3f7)
 }
@@ -27,8 +24,6 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-
-
 }
 /*End of HoverOff div settings*/
 

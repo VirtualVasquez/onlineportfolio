@@ -6,34 +6,24 @@
 	<title>Online-Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
   <link rel="stylesheet" type="text/css" href="assets/css/square.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/rectangle.css">
   <link rel="stylesheet" type="text/css" href="assets/css/connect.css">
 
 </head>
 
 
 <body>
-<!-- <nav>
-  <h1 id="brand">Melvin Vasquez</h1>
-  <ul id="test">
-  <li>Connect</li>     
-  <li>Portfolio</li>
-  <li>About Me</li>
-  </ul>
-</nav> -->
 
 <main>
 
-  <section id="about" class="yellow">
+  <section id="about" class="gradients">
       <header>
         <h1>Melvin Vasquez</h1>
         <h2>Full Stack Web Developer</h2>
       </header>
 
       <div id="flex">
-        <img src="assets/images/Headshot.png" id="headshot" class="yellow">
+        <img src="assets/images/Headshot.png" id="headshot" class="gradients">
         </img>
 
         <div id="intro">
@@ -54,7 +44,7 @@
       <h2>Skills</h2>
     </header>
 
-    <table id="skills" class="yellow">
+    <table id="skills" class="gradients">
       <tr>
         
         <th class="half"><p>Front End</p> <!-- <p>(The Stuff You Can See)</p> --></th>
@@ -108,7 +98,7 @@
 
   </section>
 
-  <section id="portfolio" >
+  <section id="portfolio">
     <header id="pTitle">
       <h2>Projects</h2>
       <p>Here are some of my projects</p>
@@ -145,7 +135,7 @@
  
   <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
-      <div class="square yellow">
+      <div class="square gradients">
 
           <div class="hoverOff" style="background-image:url('assets/images/{{picture}}.png')">
             <h2><strong>{{name}}</strong></h2>

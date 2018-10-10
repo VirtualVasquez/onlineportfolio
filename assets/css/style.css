@@ -1,111 +1,59 @@
 /*Universal Changes*/
-body{
-	background-image: url(../images/crossword.png);
-}
-
-.yellow{
+body{background-image: url(../images/crossword.png);}
+h1{font-size: 35px;}
+h2{font-size: 30px;}
+h3{font-size: 25px;}
+h4{font-size: 20px;}
+.gradients{
 	background-color: #e8effc;
 	background-image: linear-gradient(#e8effc, #c4d9fc);
     box-shadow: 1px 5px 20px gray;
     border: 1px solid; 
     border-color: black;
 }
-
 main {
 	display: block;
 	font-family: Helvetica;
 	width: 80%;
 	margin-left: 10%;
 }
- 
+
 section{
 	margin-top: 3%;
 	margin-bottom: 3%;
 	padding: 1%;
 }
-
-h1{
-	font-size: 35px;
-}
-h2{
-	font-size: 30px;
-}
-h3{ 
-	font-size: 25px; 
-}
-h4{
-	font-size: 20px;
-}
-
 table, p{
 	font-size: 16px;
 }
-
-/*End of Universal Changes*/
-
-/*About Section*/
-#about{
-	display: block;
-/*	width: 80%;
-	margin-left: 10%;*/
-}
-
-#about header{
-	text-align: center;
-}
-
-#flex{
-	display: inline-flex;
-}
-
-#headshot{
-	width: 30%;
-	height: 30%;
-	margin:2.5%;
-	float: left;
-}
-
-#intro{
-	width: 70%;
-	margin-right: 2.5%;
-	margin-left: 2.5%;
-	display: block;
-	vertical-align: top;
-}
-
-
-/*End of About Section*/
-
-/*Start of Skills Section*/
-header {
+header, #pTitle {
 	align-content: center;
 	text-align: center;
+	min-width: 100%;
 }
+/*End of Universal Changes*/
+
+/*Start of Skills Section*/
 #skills {
 	text-align: center;
 	width: 100%;
 }
-
 table{
-/*	width: 80%;
-	margin-left: 10%;*/
 	background-color: #f4f7fc;
 	border-color: #d9dbdd;
 	border-style: solid;
 	border-width: 1px;
-
+	width: 80% !important;
+	margin-left: 10% !important;
 }
-
 .half{
 	background-color: #e8effc;
 	background-image: linear-gradient(#e8effc, #c4d9fc);
 }
-
 .twoCols{
 	background-color: #eaf1fc;
 	background-image: linear-gradient(#eaf1fc, #d7e3f7);
 }
-
 td, th, tr{
 	padding: 1%;
 	width: 50%;
@@ -125,13 +73,6 @@ td, th, tr{
     -webkit-align-content: center;
     align-content: center;
 }
-
-#pTitle{
-	display: block;
-	min-width: 100%;
-	text-align: center;
-}
-
 #targetOne{
 	display: block;
 	width: 100%;
@@ -156,30 +97,13 @@ td, th, tr{
 		margin-left: 15%;
 		text-align: left;
 	}
-	h1{
-		font-size: 30px;
-	}
-	h2{
-		font-size: 20px;
-	}
-	table{
-	width: 80% !important;
-	margin-left: 10% !important;
-	}
-	tr, td, th{
-		padding: 2%;
-		font-size: 14px !important;
-	}
-	.square {
+	tr, td, th{padding: 2%;}
+	.square{
 	    float:center;
-	    width: 80% !important;
-	    padding-bottom: 80% !important; /* = width for a 1:1 aspect ratio */
+	    width: 80%;
+	    padding-bottom: 80%; /* = width for a 1:1 aspect ratio */
 		margin-left: 10% !important;
 	}
-	.top h4{
-		font-size: 16px !important;
-	}
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -199,10 +123,6 @@ td, th, tr{
 		margin-left: 15%;
 		text-align: center;
 	}
-    table{
-	width: 80% !important;
-	margin-left: 10% !important;
-	}
 	.square {
 	    width: 45% !important;
 	    padding-bottom: 45% !important;  /*= width for a 1:1 aspect ratio */
@@ -214,10 +134,6 @@ td, th, tr{
 	.top h4{
 		font-size: 16px !important;
 	}
-	.hoverOff h2{
-		font-size: 30px;
-	}
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -226,24 +142,20 @@ td, th, tr{
 	display: inline-flex;
 	}
 	#headshot{
-	width: 40%;
-	height: 40%;
-	margin:2.5%;
-	float: left;
+		width: 30%;
+		height: 30%;
+		margin:2.5%;
+		float: left;
 	}
 	#intro{
-	width: 50%;
-	margin-right: 2.5%;
-	margin-left: 2.5%;
-	display: block;
-	vertical-align: top;
-	text-align: left;
+		margin-right: 2.5%;
+		margin-left: 2.5%;
+		vertical-align: top;
 	}
 	#portfolio{
 		width: 80% !important;
 		margin-left: 10% !important;
 	}
-
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -261,22 +173,6 @@ td, th, tr{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-	#flex{
-		display: inline-flex;
-	}
-	#headshot{
-		width: 30%;
-		height: 30%;
-		margin:2.5%;
-		float: left;
-	}
-	#intro{
-		width: 70%;
-		margin-right: 2.5%;
-		margin-left: 2.5%;
-		display: block;
-		vertical-align: top;
-	}
 	#intro p{
 		font-size: 24px;
 	}
