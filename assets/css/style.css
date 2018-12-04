@@ -23,9 +23,6 @@ section{
 	margin-bottom: 3%;
 	padding: 1%;
 }
-table, p{
-	font-size: 16px;
-}
 header, #pTitle {
 	align-content: center;
 	text-align: center;
@@ -56,9 +53,7 @@ table{
 }
 td, th, tr{
 	padding: 1%;
-	width: 50%;
-	margin-left: 25%;
-	margin-right: 25%;
+
 }
 /*End of Skills Section*/
 
@@ -82,13 +77,14 @@ td, th, tr{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #headshot {
+	/* KEEP INCASE */
+	/* #headshot {
     	width: 70%;
     	height: 70%;
     	margin-left: 15%;
     	margin-bottom: 5%;
     	display: block;
-    }
+    } */
     #flex{
 	display: inline-block;
 	}
@@ -100,9 +96,9 @@ td, th, tr{
 	tr, td, th{padding: 2%;}
 	.square{
 	    float:center;
-	    width: 80%;
-	    padding-bottom: 80%; /* = width for a 1:1 aspect ratio */
-		margin-left: 10% !important;
+	    width: 100%;
+	    padding-bottom: 100%; /* = width for a 1:1 aspect ratio */
+		margin-left: 0% !important;
 	}
 }
 
@@ -118,11 +114,12 @@ td, th, tr{
     #flex{
 	display: inline-block;
 	}
-	#intro{
+	/* KEEP INCASE */
+	/* #intro{
 		width: 70%;
 		margin-left: 15%;
 		text-align: center;
-	}
+	} */
 	.square {
 	    width: 45% !important;
 	    padding-bottom: 45% !important;  /*= width for a 1:1 aspect ratio */
@@ -152,7 +149,7 @@ td, th, tr{
 		margin-left: 2.5%;
 		vertical-align: top;
 	}
-	#portfolio{
+	#portfolio, #about{
 		width: 80% !important;
 		margin-left: 10% !important;
 	}
