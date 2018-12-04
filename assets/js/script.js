@@ -65,6 +65,34 @@ const repository = {
 		}	
 	]
 }
+var animateHTML = function() {
+	var elems;
+	var windowHeight;
+	function init() {
+	  elems = document.querySelectorAll('.hidden');
+	  windowHeight = window.innerHeight;
+	  addEventHandlers();
+	  checkPosition();
+	}
+	function addEventHandlers() {
+	  window.addEventListener('scroll', checkPosition);
+	  window.addEventListener('resize', init);
+	}
+	function checkPosition() {
+	  for (var i = 0; i < elems.length; i++) {
+		var positionFromTop = elems[i].getBoundingClientRect().top;
+		if (positionFromTop - windowHeight <= 0) {
+		  elems[i].className = elems[i].className.replace(
+			'hidden',
+			'fade-in-element'
+		  );
+		}
+	  }
+	}
+	return {
+	  init: init
+	};
+  };
 
 
 // const history = {
@@ -97,7 +125,7 @@ $(document).ready(function(){
 	var projectTemplate = $("#project-template").html();
 	var compiledProjectTemplate = Handlebars.compile(projectTemplate);
 	$("#targetOne").html(compiledProjectTemplate(repository));
-
+	animateHTML().init();
 	// var jobTemplate = $("#job-template").html();
 	// var compiledJobTemplate = Handlebars.compile(jobTemplate);
 	// $("#targetTwo").html(compiledJobTemplate(history));
